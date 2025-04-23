@@ -1,0 +1,103 @@
+body {
+  background-color: #f7f9fc;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 20px 0;
+  object-fit: cover;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #7e6aca;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.card-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 40px 0;
+}
+
+.info-card {
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.typeform-card {
+  background-image: url('https://images.typeform.com/images/fLbfmD8mmzYA');
+  background-size: cover;
+  background-position: center;
+  color: #000;
+}
+
+.typeform-wrapper {
+  padding-top: 10px;
+}
+
+.typeform-button {
+  display: inline-block;
+  background-color: #0142AC;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.typeform-options {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.typeform-option {
+  background-color: rgba(1, 66, 172, 0.1);
+  border: 1px solid #0142AC;
+  color: #0142AC;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.typeform-option:hover {
+  background-color: rgba(1, 66, 172, 0.2);
+}
+
+.powered {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
